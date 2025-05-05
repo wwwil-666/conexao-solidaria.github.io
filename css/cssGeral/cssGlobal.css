@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    background-color: #fff9ec;
+}
+
+*{
+    font-family: "Inria Sans", sans-serif;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*nav-bar*/
+.divnavbar {
+    background-color: #718355;
+    border-radius: 15px;
+    height: 115px;
+    margin: 26px 18px 0px 18px ;
+    padding: 30px;
+}
+.divMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuLinks{
+    flex-grow: 0;
+    background: #97a97c;
+    border-radius: 15px;
+    height: 58px;
+    padding: 10px;
+}
+
+
+
+/*footer*/
+.corFooter{
+    background-color: #718355;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 75px 75px 0px 0px;
+    height: 400px;
+    margin-top: 250px;
+}
+.menuLinksFooter{
+    background-color: #97a97c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    border-radius: 15px;
+    padding: 5px;
+}
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 30px 0px;
+}
+.imgFooter{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+
+
+/*media queries*/
+@media (min-width: 200px) and (max-width: 991px){
+    .ulNavbar{
+        background-color: #718355a2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 345px){
+    .divnavbar{
+        width: 300px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 584px) {
+    .corFooter{
+        height: 500px;
+        padding: 30px;
+    }
+    .menuLinksFooter{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 50%;
+        height: 50%;
+        margin-top: 20px;
+    }
+    .contatos{
+        width: 100%;
+    }
+}

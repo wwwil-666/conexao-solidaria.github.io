@@ -1,0 +1,134 @@
+.alinhamentoInicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*div Titulo*/
+.rowTitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 0px 150px 0px;
+}
+.colTitulo{
+    background-color: #cfe1b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    padding: 30px 40px 30px 40px;
+}
+
+
+
+/*layout das questoes*/
+.ajustForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.questao{
+    width: 100%;
+}
+.questao > h2{
+    margin-left: 25px;
+}
+.conteudoQuestao{
+    background-color: #87986a;
+    border-radius: 50px;
+    width: 75vmax;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 30px;
+    margin-bottom: 50px;
+}
+
+.pergunta{
+    background-color: #97a97c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vmax;
+    height: auto;
+    margin-bottom: 50px;
+}
+.pergunta > p{
+    text-align: center;
+    padding: 15px;
+}
+
+.alternativas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+.alternativas > label{
+    background-color: #b5c99a;
+    border-radius: 20px;
+    width: 55vmax;
+    height: 87px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.alternativas input[type="radio"] {
+    margin: 0;
+    transform: scale(1.2);
+    margin-right: 10px; 
+    accent-color: #596a1c;
+}
+
+
+/**/
+.botaodeVerificacao{
+    background-color: #B5C99A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    width: 300px;
+    padding: 10px;
+}
+
+
+
+/*divFinal*/
+.rowConteudoFinal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+}
+.colConteudoFinal{
+    background-color: #CFE1B9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+}
+.conteudoFinal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 5px 5px 5px 60px;
+}
+.imgFinal{
+    width: 340px;
+    height: 349px;
+    object-fit: cover;
+}

@@ -1,0 +1,29 @@
+.rowAlinhamento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 250px 0px;
+}
+.colAlinhamento{
+    background-color: #b5c99a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    width: 900px;
+    height: 400px;
+    padding: 30px;
+}
+.titulo{
+    background-color: #cfe1b9;
+    border-radius: 20px;
+    width: 358px;
+    height: 58px;
+    text-align: center;
+    padding: 10px;
+}
+.texto{
+    text-align: center;
+    padding: 15px;
+}

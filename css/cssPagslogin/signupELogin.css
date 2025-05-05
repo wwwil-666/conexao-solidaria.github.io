@@ -1,0 +1,61 @@
+.tituloForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tituloForm > h1{
+    color: aliceblue;
+}
+
+/*formulario*/
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.forms > input{
+    background-color: #B5C99A;
+    border-radius: 30px;
+    width: 300px;
+    padding: 10px;
+}
+
+
+/*mensagemJS*/
+#mensagemCadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 30px;
+}
+#mensagemLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+
+
+
+/*Media queries*/
+@media (min-width: 200px) and (max-width: 324px){
+    .rowAjuste{
+        margin: 0px;
+    }
+    .forms > input{
+        width: 200px;
+    }
+}

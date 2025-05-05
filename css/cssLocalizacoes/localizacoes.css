@@ -1,0 +1,91 @@
+/*Introdução*/
+.rowAjuste{
+    margin-top: 150px;
+}
+.ajusteTextCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    
+}
+.card {
+    --bs-border-width: 0px;
+    border-width: var(--bs-border-width);
+    --bs-body-bg: #f0f0f000; 
+    background-color: var(--bs-body-bg);
+}
+
+
+
+/*conteudo2*/
+.alinhamentoConteudo2{
+    margin-top: 200px;
+}
+.tituloLista{
+    background-color:  #97a97c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px 10px 200px 100px;
+    width: 85vmax;
+    height: auto;
+    padding: 40px;
+    margin: 70px;
+}
+.titulo{
+    background-color: #cfe1b9;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 15px;
+}
+ul > li{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+/*conteudo2 lista2*/
+.ajuste{
+    margin-top: 0px !important;
+}
+
+
+
+
+/*div saiba mais*/
+.rowSaibaMais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.colSaibaMais{
+    background-color: #e9f5db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    width: 792px;/* 
+    height: 200px; */
+    padding: 50px;
+}
+.colSaibaMaisBotoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+    padding: 0px;
+}
+.estiloBotoes{
+    background-color: #cfe1b9;
+    border-radius: 40px;
+    width: 300px;
+    height: 40px;
+}
