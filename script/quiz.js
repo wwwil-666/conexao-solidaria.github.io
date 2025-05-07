@@ -269,7 +269,7 @@ const perguntas = [
         explicacao: "Erradicar a fome contribui para saúde, educação, igualdade de gênero e redução de desigualdades, entre outros ODS."
     },
     {
-        pergunta: "Qual tecnologia é aliada do ODS2 para aumentar a produtividade sem danos ambientais?",
+        pergunta: "Qual tecnologia é aliada do ODS 2 para aumentar a produtividade sem danos ambientais?",
         opcoes:[
             "Queimadas controladas",
             "Desmatamento mecanizado",
@@ -313,7 +313,7 @@ const perguntas = [
         explicacao: "8% das emissões globais vêm de alimentos descartados (ONU Meio Ambiente)"
     },
     {
-        pergunta:"Se 1/3 de toda a comida produzida no mundo é desperdiçada, enquanto 828 Milhões passam fome, qual e a solução <strong>URGENTE</strong> proposta pelo ODS2?",
+        pergunta:"Se 1/3 de toda a comida produzida no mundo é desperdiçada, enquanto 828 Milhões passam fome, qual e a solução URGENTE proposta pelo ODS2?",
         opcoes:[
             "Importar alimentos de paises ricos",
             "IGNORAR o problema e focar em outras metas",
