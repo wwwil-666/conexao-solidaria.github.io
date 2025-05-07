@@ -12,7 +12,7 @@
     justify-content: space-evenly;
     border-radius: 20px;
     width: 900px;
-    height: 400px;
+    height: auto;
     padding: 30px;
 }
 .titulo{
@@ -27,9 +27,28 @@
     padding: 10px;
 }
 .texto{
-    text-align: center;
     padding: 15px;
 }
+.texto > p{
+    text-align: center;
+}
+.lista-sem-ponto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.listaNomeEquipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
 
 @media (min-width: 200px) and (max-width: 772px){
     .colAlinhamento{
