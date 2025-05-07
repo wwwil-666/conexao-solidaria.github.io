@@ -169,7 +169,7 @@ const perguntas = [
         explicacao: "Segurança alimentar significa que todas as pessoas tenham acesso físico e econômico a alimentos suficientes, seguros e nutritivos."
     },
     {
-        pergunta: "O Que são Bancos de Alimentos? ",
+        pergunta: "O que são Bancos de Alimentos? ",
         opcoes: [
           "Locais que vendem comida gourmet",
           "Instituições que redistribuem alimentos excedentes para quem precisa",
@@ -280,7 +280,7 @@ const perguntas = [
         explicacao: "A agricultura de precisão utiliza tecnologia para aplicar água, fertilizantes e defensivos somente onde e quando são necessários, evitando desperdícios e poluição aumentando assim a produtividade, protegendo o meio ambiente e apoiando pequenos agricultores."
     },
     {   
-        pergunta:"Por que o ODS2 incentiva a conexão entre produtores rurais e consumidores urbanos?",
+        pergunta:"Por que o ODS 2 incentiva a conexão entre produtores rurais e consumidores urbanos?",
         opcoes:[
             "Para aumentar o preço dos alimentos",
             "Impedir a venda direta em feiras livres",
