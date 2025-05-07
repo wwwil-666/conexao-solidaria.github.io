@@ -17,6 +17,9 @@
 }
 .titulo{
     background-color: #cfe1b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 20px;
     width: 358px;
     height: 58px;
@@ -26,4 +29,14 @@
 .texto{
     text-align: center;
     padding: 15px;
+}
+
+@media (min-width: 200px) and (max-width: 772px){
+    .colAlinhamento{
+        height: auto;
+    }
+    .titulo{
+        width: auto;
+        padding: 10px 20px;
+    }
 }

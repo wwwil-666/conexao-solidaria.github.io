@@ -189,7 +189,7 @@
         height: 277px;
     }
 }
-@media (min-width: 445px) and (max-width: 797px){
+@media (min-width: 445px) and (max-width: 798px){
     .colIntro{
         height: auto;
     }

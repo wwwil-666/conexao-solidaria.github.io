@@ -65,7 +65,7 @@ function fazerLogin() {
         mensagemLogin.style.backgroundColor = "#B5C99A";
 
         setTimeout(() => {
-            mensagemLogin.textContent = "🎉 Você entrou com a conta de administrador no site!";
+            mensagemLogin.textContent = "🎉 Você entrou no site!";
             mensagemLogin.style.color = "darkblue";
             mensagemLogin.style.backgroundColor = "#B5C99A";
         }, 2000);

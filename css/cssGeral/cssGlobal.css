@@ -18,9 +18,13 @@ a{
 .divnavbar {
     background-color: #718355;
     border-radius: 15px;
-    height: 115px;
+    height: auto;
     margin: 26px 18px 0px 18px ;
     padding: 30px;
+}
+.imgLogoNavbar{
+    width: 320px;
+    height: 100px;
 }
 .divMenu{
     display: flex;
@@ -48,6 +52,11 @@ a{
     height: 400px;
     margin-top: 250px;
 }
+.logoFooter{
+    width: 200px;
+    height: 70px;
+    margin-bottom: 30px;
+}
 .menuLinksFooter{
     background-color: #97a97c;
     display: flex;
@@ -66,8 +75,8 @@ a{
     margin: 30px 0px;
 }
 .imgFooter{
-    width: 60px;
-    height: 60px;
+    width: 64px;
+    height: min-content;
     object-fit: cover;
 }
 
@@ -87,7 +96,6 @@ a{
 
 @media (max-width: 345px){
     .divnavbar{
-        width: 300px;
         padding: 20px;
     }
 }
@@ -108,5 +116,45 @@ a{
     }
     .contatos{
         width: 100%;
+    }
+}
+
+@media (min-width: 338px) and (max-width: 568px){
+    .divMenu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .imgLogoNavbar{
+        width: 220px;
+        height: 80px;
+        margin-bottom: 30px;
+    }
+    .menuLinks{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+}
+@media (min-width: 200px) and (max-width: 338px){
+    .divMenu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 200px !important;
+    }
+    .imgLogoNavbar{
+        width: 120px;
+        height: 40px;
+        margin-bottom: 30px;
+    }
+    .menuLinks{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 190px;
     }
 }
