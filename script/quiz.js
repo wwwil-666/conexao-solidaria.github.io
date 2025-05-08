@@ -169,16 +169,15 @@ const perguntas = [
         explicacao: "Segurança alimentar significa que todas as pessoas tenham acesso físico e econômico a alimentos suficientes, seguros e nutritivos."
     },
     {
-        pergunta: "O que são Bancos de Alimentos? ",
+        pergunta: "O que são Bancos de Alimentos?",
         opcoes: [
-          "Locais que vendem comida gourmet",
-          "Instituições que redistribuem alimentos excedentes para quem precisa",
-          "Fazendas que produzem sementes transgênicas",
-          "Supermercados de luxo",
-          
+            "Locais que vendem comida gourmet",
+            "Instituições que redistribuem alimentos excedentes para quem precisa",
+            "Fazendas que produzem sementes transgênicas",
+            "Supermercados de luxo"
         ],
         resposta: 1,
-        explicacao:"Os Bancos de Alimentos são organizações que atuam como pontes entre o desperdício e a fome"
+        explicacao: "Os Bancos de Alimentos são organizações que atuam como pontes entre o desperdício e a fome."
     },
     {
         pergunta: "O que é agricultura sustentável?",
@@ -270,59 +269,59 @@ const perguntas = [
     },
     {
         pergunta: "Qual tecnologia é aliada do ODS 2 para aumentar a produtividade sem danos ambientais?",
-        opcoes:[
+        opcoes: [
             "Queimadas controladas",
             "Desmatamento mecanizado",
-            "Agricultura de precisão (uso de drones, sensores, etc)",
-            "Uso indiscriminado de fertilizantes químicos",
+            "Agricultura de precisão (uso de drones, sensores etc.)",
+            "Uso indiscriminado de fertilizantes químicos"
         ],
-        resposta:2,
-        explicacao: "A agricultura de precisão utiliza tecnologia para aplicar água, fertilizantes e defensivos somente onde e quando são necessários, evitando desperdícios e poluição aumentando assim a produtividade, protegendo o meio ambiente e apoiando pequenos agricultores."
+        resposta: 2,
+        explicacao: "A agricultura de precisão utiliza tecnologia para aplicar água, fertilizantes e defensivos somente onde e quando são necessários, evitando desperdícios e poluição, aumentando assim a produtividade, protegendo o meio ambiente e apoiando pequenos agricultores."
     },
-    {   
-        pergunta:"Por que o ODS 2 incentiva a conexão entre produtores rurais e consumidores urbanos?",
-        opcoes:[
+    {
+        pergunta: "Por que o ODS 2 incentiva a conexão entre produtores rurais e consumidores urbanos?",
+        opcoes: [
             "Para aumentar o preço dos alimentos",
             "Impedir a venda direta em feiras livres",
             "Subsidiar grandes redes de supermercado",
             "Reduzir intermediários e fortalecer economias locais"
         ],
-        resposta:3,
-        explicacao:" Canais curtos (como feiras orgânicas) melhoram a renda do agricultor e o acesso a alimentos frescos."
+        resposta: 3,
+        explicacao: "Canais curtos (como feiras orgânicas) melhoram a renda do agricultor e o acesso a alimentos frescos."
     },
     {
         pergunta: "Como o consumidor pode reduzir o desperdício de alimentos em casa?",
-        opcoes:[
+        opcoes: [
             "Planejar compras e aproveitar talos/cascas",
             "Cozinhar apenas enlatados",
             "Comer apenas fora de casa",
-            "Ignorar datas de validade",
+            "Ignorar datas de validade"
         ],
-        resposta:0,
-        explicacao: "No Brasil é desperdiçado 27 milhões de toneladas de comida/ano(EMBRAPA)"
+        resposta: 0,
+        explicacao: "No Brasil, são desperdiçados 27 milhões de toneladas de comida por ano (EMBRAPA)."
     },
     {
-        pergunta:"Qual o impacto do desperdício de alimentos no clima?",
-        opcoes:[
+        pergunta: "Qual o impacto do desperdício de alimentos no clima?",
+        opcoes: [
             "Reduz as emissões de metano",
-            "Se decomposto, gera gás metano (25x mais poluente que CO2)",
+            "Se decomposto, gera gás metano (25x mais poluente que o CO₂)",
             "Melhora a qualidade do solo",
-            "Não tem relação com o efeito estufa",
+            "Não tem relação com o efeito estufa"
         ],
-        resposta:1,
-        explicacao: "8% das emissões globais vêm de alimentos descartados (ONU Meio Ambiente)"
+        resposta: 1,
+        explicacao: "8% das emissões globais vêm de alimentos descartados (ONU Meio Ambiente)."
     },
     {
-        pergunta:"Se 1/3 de toda a comida produzida no mundo é desperdiçada, enquanto 828 Milhões passam fome, qual e a solução URGENTE proposta pelo ODS 2?",
-        opcoes:[
-            "Importar alimentos de paises ricos",
-            "Ignorar o problema e focar em outras metas",
+        pergunta: "Se 1/3 de toda a comida produzida no mundo é desperdiçada, enquanto 828 milhões passam fome, qual é a solução URGENTE proposta pelo ODS 2?",
+        opcoes: [
             "Importar alimentos de países ricos",
-            "Transformar sistemas alimentares para reduzir perdas e garantir acesso equitativo",
+            "IGNORAR o problema e focar em outras metas",
+            "Exportar alimentos para países ricos",
+            "Transformar sistemas alimentares para reduzir perdas e garantir acesso equitativo"
         ],
-        resposta:3,
-        explicacao: "Não falta comida no mundo, falta justiça no sistema! O ODS 2 pressiona por políticas contra desperdício, apoio a agricultura familiar e tecnologias acessíveis. A fome é um crime político, não fracasso agrícola."
-    },
+        resposta: 3,
+        explicacao: "Não falta comida no mundo – falta justiça no sistema. O ODS 2 pressiona por políticas contra o desperdício, apoio à agricultura familiar e tecnologias acessíveis. A fome é um crime político, não um fracasso agrícola."
+    }
 ];
         
 const meuQuiz = new Quiz(perguntas);
